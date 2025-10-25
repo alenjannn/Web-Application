@@ -1,0 +1,27 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Force specific extensions to use LF in repo
+*.js text
+*.ts text
+*.jsx text
+*.tsx text
+*.json text
+*.css text
+*.scss text
+*.html text
+*.md text
+*.yml text
+*.yaml text
+
+# Binary files should not be modified
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.eot binary
+*.ttf binary
+*.otf binary
